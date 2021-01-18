@@ -56,17 +56,13 @@ body {
     min-width: 320px;
     background-color: var(--header-background);
 }
-.start-section {
+.start-background-section {
     position: relative;
+    width: 100%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    padding-top: 0;
-    text-align: center;
 }
-.start-section__img {
+.start-background__img {
     width: 260px;
     height: 260px;
     z-index: 2;
@@ -75,13 +71,38 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.start-background__curvy-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -50px;
+    z-index: 1;
+    background-image: url("../assets/images/bg-curvy-mobile.svg");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.start-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    text-align: center;
+}
 .start-section-info { 
+    position: relative;
     width: 100%;
     margin-top: 50px;
     z-index: 3;
+    padding-bottom: 120px;
+    padding-top: 40px;
     background-color: var(--main-background);
 }
 .start-section-info__title {
+    position: absolute;
+    top: -55px;
     font-size: 2.2rem;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -92,6 +113,7 @@ body {
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 30px;
+    line-height: 2.1rem;
 }
 .start-section-info-description p {
     font-size: 1.4rem;
@@ -99,20 +121,68 @@ body {
 }
 .start-section-info__button {
     width: 230px;
-    background-color: hsl(198, 60%, 50%);
+    background: linear-gradient(90deg, rgba(79,197,209,1) 0%, rgba(61,174,208,1) 100%);
     border: none;
     padding: 15px 0;
     border-radius: 50px;
+    font-size: 1.5rem;
+    color: white;
 }
-.start-section__curvy-background {
+.benefits-section {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 145px;
-    z-index: 1;
-    background-image: url("../assets/images/bg-curvy-mobile.svg");
-    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--main-background);
+}
+.benefits-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.benefits-titles {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.benefits-description {
+    font-weight: 300;
+}
+.pc-mobile-icon {
+    width: 60px;
+    height: 60px;
+    background-image: url("../assets/icons/icon-access-anywhere.svg");
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+.security-icon {
+    width: 60px;
+    height: 60px;
+    background-image: url("../assets/icons/icon-security.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.real-time-icon {
+    width: 60px;
+    height: 60px;
+    background-image: url("../assets/icons/icon-collaboration.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.folder-icon {
+    width: 60px;
+    height: 60px;
+    background-image: url("../assets/icons/icon-any-file.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
