@@ -92,6 +92,9 @@ body {
     text-align: center;
 }
 .start-section-info { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     position: relative;
     width: 100%;
     margin-top: 50px;
@@ -366,18 +369,79 @@ body {
     grid-gap: 30px;
 }
 .location-info__figure {
+    display: block;
     padding-left: 15px;
 }
-.location-info__icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
+.location-info-description {
+    display: flex;
+    padding-top: 30px;
+}
+.location-info-description__icon {
+    /* display: inline-block; */
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 20px;
     background-image: url("../assets/icons/icon-location.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.location-info__text {
-    display: inline-block;
+.location-info-description__text{
+    /* display: inline-block; */
+    width: 90%;
     font-weight: 300;
+}
+.contact-info-description {
+    display: flex;
+    margin: 15px 0;
+}
+.contact-info-description__phone-icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-image: url("../assets/icons/icon-phone.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contact-info-description__mail-icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-image: url("../assets/icons/icon-email.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contact-info-description__text {
+    width: 90%;
+    font-weight: 300;
+}
+.links-list {
+    list-style: none;
+}
+.links-list__item {
+    margin: 12px 0;
+}
+.links-list__item a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.social-media__facebook, .social-media__twitter, .social-media__instagram {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
 }
