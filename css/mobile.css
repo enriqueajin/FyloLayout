@@ -134,18 +134,19 @@ body {
 }
 .benefits-section {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template: auto / 270px;
+    grid-gap: 80px;
+    padding-bottom: 100px;
     justify-content: center;
-    flex-wrap: wrap;
     background-color: var(--main-background);
 }
 .benefits-chart {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85%;
+    width: 270px;
     height: auto;
-    margin-bottom: 80px;
     text-align: center;
 }
 .benefits-titles {
@@ -250,15 +251,15 @@ body {
 }
 .opinions-container {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template: auto / 270px;
+    grid-gap: 20px;
     justify-content: center;
 }
 .opinion-card {
     width: 270px;
     height: 175px;
     padding: 25px 20px;
-    margin: 10px 0;
     background-color: var(--opinions-background);
 }
 .first-opinion-card {
