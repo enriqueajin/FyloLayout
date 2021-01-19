@@ -98,7 +98,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    width: 100%;
+    width: 60%;
+    min-width: 320px;
     margin-top: 50px;
     z-index: 3;
     padding-bottom: 120px;
