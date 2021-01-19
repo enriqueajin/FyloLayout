@@ -195,7 +195,7 @@ body {
 .productive-section {
     display: grid;
     grid-template: auto / 270px;
-    width: 80%;
+    width: 100%;
     min-width: 320px;
     justify-content: center;
     padding-bottom: 160px;
