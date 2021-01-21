@@ -29,6 +29,7 @@
 }
 .get-started-card {
     display: block;
+    top: -112.5px;
 }
 .get-started-input {
     display: inline-block;

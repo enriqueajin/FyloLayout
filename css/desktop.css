@@ -1,3 +1,58 @@
+:root {
+    --button-background-hover: #8cdae4;
+}
+.nav-list__item:active {
+    font-weight: 700;
+    text-decoration: underline ;
+}
 .start-background__curvy-background {
     background-image: none;
+}
+.start-section-info__button:active {
+    background: var(--button-background-hover);
+}
+.benefits-section {
+    grid-gap: 80px 150px;
+}
+.productive-section {
+    grid-gap: 0 80px;
+}
+.productive-link:active {
+    border-bottom: 1px solid white;
+}
+.productive-link a:active {
+    color: white;
+}
+.opinions-container {
+    grid-template: auto / auto auto auto auto;
+    grid-gap: 30px;
+}
+.footer {
+    padding-bottom: 50px;
+}
+.get-started-card {
+    max-width: 700px;
+}
+.get-started-button:hover {
+    cursor: pointer;
+}
+.get-started-button:active {
+    cursor: pointer;
+    background: var(--button-background-hover);
+}
+.main-footer-section {
+    grid-template: auto / 350px auto auto auto auto;
+    grid-gap: 30px;
+}
+.links-list__item a:active {
+    font-weight: 700;
+}
+.social-media {
+    grid-column: 5 / 6;
+}
+.social-media__facebook:active, .social-media__twitter:active, .social-media__instagram:active {
+    border: 1px solid aqua;
+}
+.fa-facebook-f:active, .fa-twitter:active, .fa-instagram:active {
+    color: aqua;
 }
