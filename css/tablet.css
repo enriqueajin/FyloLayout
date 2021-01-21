@@ -1,0 +1,10 @@
+.start-background-section {
+    padding-bottom: 550px;
+    padding-top: 40px;
+}
+.start-background__curvy-background {
+    background-image: url("../assets/images/bg-curvy-desktop.svg");
+}
+.start-section-info {
+    top: -300px;
+}
