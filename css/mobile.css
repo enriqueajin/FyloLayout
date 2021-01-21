@@ -205,7 +205,8 @@ body {
     padding-bottom: 160px;
 }
 .productive-section__img {
-    width: 260px;
+    width:100%;
+    min-width: 260px;
     height: 260px;
     z-index: 2;
     background-image: url("../assets/images/illustration-stay-productive.png");
@@ -319,7 +320,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 .get-started-card {
     position: absolute;
