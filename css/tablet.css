@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .start-background-section {
     padding-bottom: 550px;
     padding-top: 40px;
