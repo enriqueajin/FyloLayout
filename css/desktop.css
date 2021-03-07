@@ -1,6 +1,9 @@
 :root {
     --button-background-hover: #8cdae4;
 }
+body {
+    overflow-x: hidden;
+}
 .nav-list__item:active {
     font-weight: 700;
     text-decoration: underline ;
